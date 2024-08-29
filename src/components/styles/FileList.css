@@ -1,0 +1,47 @@
+.fileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 1.5rem;
+}
+
+.fileList {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.fileList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fileList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.fileList li:last-child {
+    border-bottom: none;
+}
+
+.fileList button {
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.fileList button:hover {
+    background-color: #c0392b;
+}
